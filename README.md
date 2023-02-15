@@ -6,7 +6,7 @@ A simple Vaadin application used for experimenting possibility of using strict C
 Approach
 --------
 * Overrode VaadinServlet to make it possible add `integrity` attributes to the script tags.
-* Put inline init script from body to init.js file
+* Extract the inline init script from html body to an init.js file
 * Using CSPFilter to add hashes to CSP headers
 * Customized vaadinBootstrap.js to include `integrity` attribute for `com.vaadin.DefaultWidgetSet.nocache.js`
 
