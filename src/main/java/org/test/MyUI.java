@@ -23,7 +23,6 @@ import org.jsoup.nodes.Element;
  * overridden to add component to the user interface and initialize non-component functionality.
  */
 @Theme("mytheme")
-//@JavaScript("vaadin://js/init.js")
 public class MyUI extends UI {
 
     @Override
@@ -70,10 +69,6 @@ public class MyUI extends UI {
                                 e.attr("integrity", "sha256-tVTYphMU4jCroNXhvIbrYnLWI7AAZSAP/5AiuVFTJuE=");
                             }
                         }
-//                        document.body().appendElement("script")
-//                                .attr("type", "text/javascript")
-//                                .attr("src", "VAADIN/com.vaadin.DefaultWidgetSet.nocache.js")
-//                                .attr("integrity","sha256-RmOirPgzujLV7KMudlEsreSakuCLzWJbNs6xHrsRGiY=");
 //                            document.body().appendElement("script")
 //                                    .attr("type", "text/javascript")
 //                                    .attr("src", "VAADIN/54560EC340AA00165878B372BB99DDF7.cache.js")
